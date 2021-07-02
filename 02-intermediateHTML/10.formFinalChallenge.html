@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Final Challenge - Facebook Sign Up Form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Sign Up</h1>
+      <p>It's quick and easy</p>
+      <form action="#">
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Primeiro Nome"
+          size="20"
+          minlength="3"
+          maxlength="60"
+          required
+        />
+        <input
+          type="text"
+          name="sobrenome"
+          id="sobrenome"
+          placeholder="Sobrenome"
+          size="20"
+          minlength="3"
+          maxlength="60"
+          required
+        />
+        <br />
+        <br />
+        <input
+          type="text"
+          name="contato"
+          id="contato"
+          placeholder="Número de telefone ou email"
+          size="46"
+          minlength="8"
+          maxlength="60"
+          required
+        />
+        <br />
+        <br />
+        <h2>Birthday</h2>
+        <select name="mes" id="mes">
+          <option value="Jan">Jan</option>
+          <option value="Fev">Fev</option>
+          <option value="Mar">Mar</option>
+          <option value="Abr">Abr</option>
+          <option value="Mai">Mai</option>
+          <option value="Jun">Jun</option>
+          <option value="Jul">Jul</option>
+          <option value="Ago">Ago</option>
+          <option value="Out">Out</option>
+          <option value="Nov">Nov</option>
+          <option value="Dez">Dez</option>
+        </select>
+        <select name="dia" id="dia">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <select name="ano" id="ano">
+          <option value="1234">1234</option>
+          <option value="1234">1234</option>
+          <option value="1234">1234</option>
+          <option value="1234">1234</option>
+          <option value="1234">1234</option>
+          <option value="1234">1234</option>
+        </select>
+        <br />
+        <br />
+        <h2>Genero</h2>
+        <input type="radio" name="gen" id="masc" value="masc" />Masculino
+        <input type="radio" name="gen" id="fem" value="fem" />Feminino
+        <input type="radio" name="gen" id="outro" value="outro" />Outro
+        <br />
+        <br />
+        <input type="submit" value="Cadastrar" />
+      </form>
+    </div>
+  </body>
+</html>

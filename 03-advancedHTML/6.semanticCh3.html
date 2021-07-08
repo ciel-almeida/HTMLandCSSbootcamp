@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Elements Challenge 3</title>
+
+    <!-- CSS -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h2 {
+        font-size: 2rem;
+        color: rgb(146, 18, 146);
+      }
+      img {
+        max-height: 400px;
+        max-width: 100%;
+        /* width: 100%; */
+      }
+      .container {
+        width: 85%;
+        margin: 0 auto;
+      }
+      section {
+        min-height: 500px;
+      }
+      header {
+        font-size: 2em;
+        background-color: rgb(88, 72, 100);
+        color: rgb(240, 232, 250);
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      section {
+        display: flex;
+      }
+      aside {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(207, 206, 191);
+        padding: 6%;
+      }
+      ul {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      li {
+        width: 100%;
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        padding: 15px 35px;
+        background-color: rgb(236, 113, 108);
+        color: white;
+      }
+      li a {
+        background-color: rgb(233, 214, 49);
+        color: rgb(12, 12, 12);
+      }
+      a:hover {
+        background-color: rgb(228, 52, 46);
+      }
+      main {
+        width: 70%;
+        padding: 6%;
+        background-color: rgb(255, 255, 174);
+      }
+      article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        border: 1px solid yellowgreen;
+        padding: 6%;
+      }
+      footer {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(78, 77, 78);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Usar as tags mark, aside, figure  e  figurecaption -->
+
+    <!-- Hero -->
+    <header>
+      <h1>Site de notícias</h1>
+      <p>Sua fonte de informações sobre o mundo.</p>
+    </header>
+
+    <!-- Container -->
+    <div class="container">
+      <!-- Parent flex -->
+      <section>
+        <!-- Navegação lateral -->
+        <aside>
+          <h2>Menu</h2>
+          <ul>
+            <li><a href="#">Ver noticias anteriores</a></li>
+            <li><a href="#">Trabalhos realizados</a></li>
+            <li><a href="#">Teste para o exercicio</a></li>
+            <li><a href="#">Mais um texte</a></li>
+            <li><a href="#">Fim do teste</a></li>
+          </ul>
+        </aside>
+
+        <!-- Noticias -->
+        <main>
+          <!-- Card noticia -->
+          <article>
+            <h2>Titulo da primeira noticia</h2>
+            <figure>
+              <img
+                src="https://channel-korea.com/wp-content/uploads/2019/02/matsui-jurina-2.jpg"
+                alt="Jurina"
+              />
+              <figcaption>Jurina profile picture</figcaption>
+            </figure>
+            <p>
+              Lorem ipsum dolor sit amet <mark> adipisicing elit</mark>. Natus,
+              asperiores voluptas dolores animi adipisci illo quam esse
+              accusantium alias mollitia.
+            </p>
+            <br />
+            <a href="#">Ler artigo</a>
+          </article>
+
+          <!-- Card noticia -->
+          <article>
+            <h2>Titulo da segunda noticia</h2>
+            <figure>
+              <img
+                src="http://i1.jpopasia.com/news/4/21397_tuh34z.jpg"
+                alt="Jurina"
+              />
+              <figcaption>Jurina profile picture</figcaption>
+            </figure>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              asperiores voluptas dolores animi adipisci illo quam esse
+              accusantium alias mollitia.
+            </p>
+            <br />
+            <a href="#">Ler artigo</a>
+          </article>
+        </main>
+      </section>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>Todos os direitos reservados &copy;</p>
+    </footer>
+  </body>
+</html>

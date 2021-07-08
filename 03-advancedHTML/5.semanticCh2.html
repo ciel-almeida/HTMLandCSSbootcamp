@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Elements Challenge 2</title>
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.35rem;
+      }
+      nav {
+        list-style: none;
+      }
+      ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 35px;
+      }
+      li {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+      }
+      li:hover {
+        background-color: rgb(143, 168, 235);
+      }
+      li:hover a {
+        color: white;
+      }
+      header {
+        min-height: 450px;
+        background-color: rgb(75, 73, 70);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      h1 {
+        font-size: 3.5rem;
+        color: rgb(25, 148, 197);
+      }
+      p {
+        color: white;
+        font-size: 1.3rem;
+      }
+      main {
+        min-height: 800px;
+        background-color: rgb(215, 251, 251);
+      }
+      footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 150px;
+        color: white;
+
+        background-color: rgb(53, 49, 49);
+      }
+      footer a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>E-commerce Ciel</h1>
+      <p>Vendendo todo tipo de produto.</p>
+    </header>
+    <main></main>
+    <footer>
+      <div>
+        <a href="#">Termos</a>
+        <a href="#">Sobre</a>
+      </div>
+      <p>Todos os direitos reservados &copy;</p>
+    </footer>
+  </body>
+</html>

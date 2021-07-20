@@ -1,0 +1,27 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secao1 {
+  color: hsl(255, 32%, 57%);
+  background-color: hsl(255, 5%, 69%);
+}
+.secao2 {
+  color: rgb(223, 90, 90);
+  background-color: rgb(236, 185, 102);
+}
+.secao3 {
+  color: #fff;
+  background-color: #000;
+}
+.secao4 {
+  color: tomato;
+  background-color: lightskyblue;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(235, 231, 231);
+}
+.btn {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 1.5em 2.5em;
+  background-color: rgb(59, 199, 59);
+  color: rgb(219, 209, 209);
+  box-shadow: 2px 2px 3px rgb(39, 37, 35);
+}
+.btn:hover {
+  background-color: rgb(124, 204, 131);
+}
+
+.btn:visited {
+  color: rgb(175, 172, 172);
+  background-color: rgb(66, 66, 66);
+  box-shadow: 2px 2px 3px rgb(236, 215, 215);
+}
+.btn:active {
+  color: red;
+  background-color: rgb(243, 109, 109);
+  box-shadow: none;
+}

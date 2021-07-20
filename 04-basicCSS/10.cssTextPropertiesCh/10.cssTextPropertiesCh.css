@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  width: 800px;
+  margin: 50px auto;
+  padding: 5%;
+  font-size: 1.5rem;
+  text-indent: 3rem;
+  text-align: right;
+  color: rgb(246, 246, 245);
+  background-color: rgb(167, 167, 167);
+  text-shadow: 4px 3px 1px rgb(173, 50, 245);
+}

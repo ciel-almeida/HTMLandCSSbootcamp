@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+ul {
+  background-color: rgb(65, 63, 63);
+  text-align: center;
+}
+
+li {
+  display: block;
+  margin-bottom: 15px;
+}
+
+a {
+  display: block;
+  padding: 8px 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 154, 60);
+}
+
+@media screen and (min-width: 700px) {
+  li {
+    margin: 15px 5px 15px 5px;
+  }
+  li,
+  a {
+    border-radius: 5px;
+
+    display: inline-block;
+  }
+}

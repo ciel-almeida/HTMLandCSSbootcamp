@@ -1,0 +1,50 @@
+body {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+header {
+  min-height: 600px;
+  background-color: rgb(115, 105, 158);
+}
+nav {
+  min-height: 100px;
+  background-color: rgb(179, 238, 223);
+}
+ul {
+  margin: 0;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+section {
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+}
+section h2 {
+  font-size: 2.4rem;
+}
+section:nth-child(2n) {
+  color: white;
+  background-color: rgb(110, 163, 216);
+}
+footer {
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(54, 52, 52);
+}

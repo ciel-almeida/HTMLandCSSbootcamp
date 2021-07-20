@@ -1,0 +1,11 @@
+section {
+  display: inline;
+  width: 300px;
+}
+h2,
+p {
+  display: inline;
+}
+a {
+  display: block;
+}

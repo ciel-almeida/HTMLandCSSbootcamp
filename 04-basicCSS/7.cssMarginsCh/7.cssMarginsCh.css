@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-section {
+  background-color: rgb(206, 187, 165);
+}
+.article1 {
+  background-color: rgb(182, 133, 228);
+  margin: 100px 30px 50px 0px;
+}
+.article2 {
+  background-color: rgb(218, 117, 117);
+  margin: 100px 0px 50px 30px;
+}

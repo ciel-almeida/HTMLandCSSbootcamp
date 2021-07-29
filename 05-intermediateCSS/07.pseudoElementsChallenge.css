@@ -1,0 +1,20 @@
+div {
+  padding: 20px;
+}
+label::before {
+  content: "Tipo ";
+}
+label::after {
+  content: "*:";
+}
+div::after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 0.1px;
+  margin-top: 20px;
+  background-color: rgb(97, 97, 97);
+}
+form::first-line {
+  color: blueviolet;
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+section {
+  padding: 20px;
+  margin-bottom: 15px;
+}
+h2 {
+  padding: 20px;
+}
+a {
+  display: block;
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(152, 138, 243);
+}
+a:nth-last-of-type(2) {
+  background-color: rgb(90, 86, 86);
+}
+a:nth-of-type(3) {
+  background-color: rgb(241, 119, 119);
+}
+a:nth-last-child(1) {
+  background-color: rgb(246, 156, 246);
+}
+a:last-of-type {
+  color: chartreuse;
+}
+a:hover {
+  background-color: white;
+  color: red;
+}
+:not(a, body, html) {
+  background-color: rgb(246, 160, 129);
+}

@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: rgb(236, 235, 235);
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(4, 72, 99, 0.973);
+}
+
+section {
+  width: 500px;
+}
+
+form {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(157, 72%, 48%);
+}
+
+input,
+select,
+textarea {
+  width: 80%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 15px 30px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: solid 3px rgb(148, 243, 54);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  transition: all 350ms ease;
+  width: 90%;
+  background-color: rgb(148, 243, 54);
+  color: white;
+}
+
+select {
+  border: none;
+  width: 40%;
+  background-color: rgba(4, 72, 99, 0.541);
+  color: white;
+}
+
+textarea {
+  height: 140px;
+  border-left: solid 3px rgb(148, 243, 54);
+}
+
+input[type="submit"] {
+  width: 100%;
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgb(148, 243, 54);
+}
+
+/*
+rgba(4, 72, 99, 0.973)
+hsl(157, 72%, 48%)
+rgb(148, 243, 54)
+rgba(4, 72, 99, 0.541)
+*/

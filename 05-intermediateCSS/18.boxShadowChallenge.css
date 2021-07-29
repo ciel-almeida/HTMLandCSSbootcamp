@@ -1,0 +1,8 @@
+section {
+  width: 45%;
+  margin: 100px auto;
+}
+img {
+  width: 100%;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgb(182, 109, 13);
+}

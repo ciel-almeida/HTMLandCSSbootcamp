@@ -1,0 +1,12 @@
+p {
+  font-size: 4cm;
+}
+
+p::first-line {
+  font-size: 60pt;
+  background-color: bisque;
+}
+p::first-letter {
+  color: red;
+  font-size: 2in;
+}

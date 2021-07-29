@@ -1,0 +1,19 @@
+/* Todos os paragráfos dentro de section serão selecionados, independente deles estarem dentro de outros elementos dentro da section(netos) */
+/* section p {
+  background-color: rgb(218, 131, 131);
+} */
+
+/* Todos os paragráfos filhos dentro da section, ignorando os paragráfos dentro de outros elementos. Apenas o primeiro nível dentro de section */
+/* section > p {
+  background-color: rgb(179, 116, 238);
+} */
+
+/* Parágrafo adjacente(irmãos, no mesmo nível), todos os paragráfos que vierem depois de uma section serão selecionados. */
+/* section ~ p {
+  background-color: rgb(166, 195, 184);
+} */
+
+/* Todos os paragráfos após a section */
+section + p {
+  background-color: rgb(151, 231, 144);
+}

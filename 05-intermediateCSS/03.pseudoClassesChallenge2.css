@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+h1:first-of-type {
+  text-align: center;
+  font-size: 3rem;
+  border-bottom: grey solid 0.5px;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.4rem;
+}
+article {
+  padding-bottom: 15px;
+}
+article:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
+  border-left: solid 4px rgb(0, 0, 0);
+}
+article:active {
+  background-color: rgb(248, 98, 98);
+  color: white;
+}
+
+article:last-of-type {
+  margin-bottom: 50px;
+}
+section {
+  padding: 50px;
+  width: 85%;
+  margin: 0 auto;
+}
+section:hover {
+  background-color: rgb(250, 227, 227);
+}

@@ -1,0 +1,15 @@
+/* h2[title] {
+  background-color: violet;
+}
+
+p[class="parag"] {
+  background-color: wheat;
+} */
+
+/* p[class~="parte1"] {
+  color: red;
+} */
+
+[class|="top"] {
+  background-color: red;
+}

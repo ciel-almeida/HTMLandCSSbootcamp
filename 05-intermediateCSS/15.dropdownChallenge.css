@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
+}
+
+/* General Styling*/
+header {
+  width: 80%;
+  margin: 100px auto;
+}
+
+a {
+  width: 100px;
+  text-align: center;
+}
+
+/* Main Style */
+
+nav {
+  position: relative;
+}
+
+nav > a {
+  padding: 25px 50px;
+  background-color: rgb(72, 73, 73);
+  color: white;
+  display: inline-block;
+}
+
+nav > a:hover {
+  background-color: rgb(167, 64, 64);
+}
+
+div {
+  display: none;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+div > a {
+  display: block;
+  padding: 15px 50px;
+  margin-bottom: 1px;
+  background-color: rgb(112, 111, 110);
+  color: white;
+}
+div > a:hover {
+  background-color: rgb(209, 206, 206);
+  color: rgb(0, 0, 0);
+}
+
+nav:hover div {
+  display: block;
+}

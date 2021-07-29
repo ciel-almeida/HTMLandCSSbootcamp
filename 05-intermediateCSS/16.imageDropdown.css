@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  padding: 20px;
+  background-color: rgb(153, 181, 233);
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: lowercase;
+  color: crimson;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+article {
+  display: inline-block;
+}
+
+article > img {
+  width: 10rem;
+  position: relative;
+}
+
+article > div {
+  display: none;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  margin: 30px auto;
+}
+div > img {
+  width: 100%;
+}
+
+article > img:hover ~ div {
+  display: block;
+}

@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+  background: radial-gradient(rgb(37, 37, 37) 15%, black 85%);
+  background-repeat: no-repeat;
+  position: relative;
+}
+img {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 6rem;
+}
+
+/* Main Style */
+header {
+  position: sticky;
+  text-align: center;
+  background-color: rgb(55, 1, 66);
+}
+
+section {
+  text-align: center;
+  margin-top: 50px;
+  perspective: 20rem;
+}
+
+article {
+  width: 25%;
+  padding: 2rem;
+}
+
+h3 {
+  color: rgb(7, 209, 216);
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+p {
+  color: white;
+  text-align: left;
+}
+
+figure {
+  width: 30%;
+
+  transition: transform 1s cubic-bezier(0.56, 0.17, 0.4, 0.82);
+}
+
+figure:hover {
+  transform: rotate(360deg);
+}
+
+article,
+figure {
+  display: inline-block;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(55, 1, 66);
+
+  display: inline-block;
+  height: 130px;
+  padding: 0 30px;
+  z-index: 100;
+}
+h1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 10px solid rgb(10, 190, 245);
+  width: 100%;
+  height: 50%;
+  left: 0;
+  z-index: -1;
+}

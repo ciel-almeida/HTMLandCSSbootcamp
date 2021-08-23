@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: dimgrey;
+  padding: 2rem;
+  min-height: 40rem;
+}
+
+/* Teste com transform 2D, X e Y */
+div {
+  background-color: dodgerblue;
+  padding: 2rem;
+  display: inline-block;
+  transform: translate(250px, 200%) rotate(-35deg);
+}

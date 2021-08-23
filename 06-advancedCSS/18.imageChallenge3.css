@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+section {
+  width: 60%;
+  margin: 100px auto 0;
+  position: relative;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  background-color: rgb(190, 190, 185);
+
+  transition: 1s ease;
+}
+
+div p {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(155, 82, 223);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section:hover div {
+  opacity: 1;
+  height: 100%;
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(179, 179, 179);
+}
+
+img {
+  width: 100%;
+
+  /* Inclina o elemento, utiliza graus como unidade */
+  transform: skew(5deg);
+}
+
+figure {
+  width: 60%;
+  background-color: lightblue;
+  text-align: right;
+  margin: 200px auto;
+}

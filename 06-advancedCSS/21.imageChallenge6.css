@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 50%;
+  margin: 50px auto 0;
+  position: relative;
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card__overlay {
+  position: absolute;
+  height: 100%;
+  width: 0;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: rgba(85, 183, 211, 0.466);
+
+  transition: 1s ease;
+}
+
+.card:hover .card__overlay {
+  width: 100%;
+  left: 0;
+}
+
+.card__text {
+  font-size: 6rem;
+  font-family: fantasy;
+  text-shadow: black 4px 4px 6px;
+  text-align: center;
+  color: rgb(193, 94, 243);
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

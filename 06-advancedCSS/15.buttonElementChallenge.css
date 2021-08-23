@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5rem;
+  background-color: rgb(145, 146, 146);
+}
+
+button {
+  width: 13rem;
+  padding: 1.3rem;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: rgb(248, 248, 248);
+  background-color: rgb(11, 124, 77);
+  box-shadow: rgb(58, 58, 58) 0rem 0.3rem 0.1rem 0rem;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+button span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+button span::after {
+  content: "\00bb";
+  padding-left: 0.5rem;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -0.8rem;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover span {
+  padding-right: 1.5rem;
+}
+
+button:hover span::after {
+  opacity: 1;
+  right: 0;
+}

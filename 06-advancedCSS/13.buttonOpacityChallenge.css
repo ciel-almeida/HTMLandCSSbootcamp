@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5rem;
+  background-color: rgb(145, 146, 146);
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  color: rgb(17, 2, 51);
+  background-color: rgb(132, 255, 204);
+  box-shadow: rgb(58, 58, 58) 0rem 0.3rem 0.1rem 0rem;
+  opacity: 0.3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:active {
+  color: white;
+  transform: translate(0rem, 0.2rem);
+  background-color: rgb(230, 124, 92);
+  box-shadow: rgb(92, 1, 1) 0rem 0.2rem 0.1rem 0rem;
+}
+
+button:hover {
+  opacity: 1;
+}

@@ -1,0 +1,14 @@
+body {
+  padding: 5rem;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+article {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  columns: 3 14rem;
+  column-gap: 4rem;
+  column-rule: 3px dashed black;
+}

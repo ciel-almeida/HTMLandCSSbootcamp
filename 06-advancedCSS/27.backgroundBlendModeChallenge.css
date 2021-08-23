@@ -1,0 +1,10 @@
+section {
+  width: 40rem;
+  height: 35rem;
+  margin: 50px auto 0;
+
+  background: linear-gradient(rgb(168, 255, 243), rgb(248, 109, 97)),
+    url("./images/Hikaru_monotachi_a.jpg") center top,
+    url("./images/kuladiamond.png") 10% 40%;
+  background-blend-mode: difference;
+}

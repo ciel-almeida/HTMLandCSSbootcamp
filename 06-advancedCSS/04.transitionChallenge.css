@@ -1,0 +1,31 @@
+body {
+  position: relative;
+}
+section {
+  background-color: olive;
+}
+figure {
+  width: 40%;
+  margin: 100px auto;
+  opacity: 0.2;
+
+  transition: ease-in-out 3s;
+}
+/* 
+figure:hover {
+  opacity: 1;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  left: 20%;
+} */
+
+figure:hover {
+  transform: scale(2, 2);
+  opacity: 1;
+}
+img {
+  width: 100%;
+}

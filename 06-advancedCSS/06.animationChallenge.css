@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(1, 72, 85);
+  height: 100vh;
+}
+.title-box {
+  height: 12vh;
+  overflow: hidden;
+  background-color: rgb(80, 4, 4);
+}
+h1 {
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-size: 4rem;
+  padding: 1.6vh 0;
+
+  animation-name: texto;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.kula-box {
+  height: 88vh;
+  position: relative;
+  /* margin-top: 100px; */
+  /* background-color: rgb(190, 190, 190); */
+  background: url("./images/game-bg.jpg");
+  background-size: cover;
+  background-position: center 70%;
+  overflow: hidden;
+}
+
+img {
+  position: relative;
+  top: 50%;
+
+  animation-name: kula;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes kula {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+
+@keyframes texto {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 30%;
+  }
+}

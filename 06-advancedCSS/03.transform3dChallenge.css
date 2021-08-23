@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+section {
+  width: 75%;
+  margin: 100px auto;
+  padding: 2rem;
+  border: 2px solid black;
+
+  perspective: 5rem;
+}
+
+article {
+  background-color: navajowhite;
+  padding: 1rem;
+}
+
+article:hover {
+  transform: scale3d(1.15, 1.2, 0.3) rotate3d(1, 2, 3, 10deg);
+}

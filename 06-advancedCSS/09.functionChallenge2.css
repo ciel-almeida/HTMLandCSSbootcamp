@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+section {
+  opacity: 0.5;
+  width: 80%;
+  height: 80vh;
+  margin-left: calc(calc(100% - 80%) / 2);
+  margin-top: calc(calc(100vh - 80vh) / 2);
+  background-image: radial-gradient(
+    blue 30%,
+    orange 40%,
+    green 60%,
+    indigo 80%
+  );
+}

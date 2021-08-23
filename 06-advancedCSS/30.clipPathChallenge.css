@@ -1,0 +1,11 @@
+section {
+  width: 80%;
+  margin: 20px auto 0;
+  background-color: violet;
+}
+
+img {
+  width: 100%;
+
+  clip-path: inset(8% 9% 5% 13%);
+}

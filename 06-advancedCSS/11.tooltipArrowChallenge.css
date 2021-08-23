@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 5rem;
+  background-color: rgb(59, 59, 59);
+}
+section {
+  text-align: center;
+  position: relative;
+  margin-bottom: 6rem;
+}
+h1 {
+  display: inline-block;
+  font-size: 3rem;
+  background-color: rgb(183, 246, 181);
+}
+
+/* Estilo e posicionamento das caixas de texto */
+.tooltip {
+  visibility: hidden;
+  display: inline-block;
+  height: 2rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  position: absolute;
+  opacity: 0;
+
+  transition: opacity 1s ease-in-out;
+}
+.tooltip-right {
+  margin-left: 0.8rem;
+  top: calc(50% - 1rem);
+}
+.tooltip-left {
+  top: calc(50% - 1rem);
+  right: 73%;
+}
+.tooltip-top {
+  right: 40%;
+  bottom: 120%;
+}
+.tooltip-bottom {
+  right: 40%;
+  top: 120%;
+}
+
+/* Ponta da caixa de texto */
+.tooltip::before {
+  content: "";
+  border: 8px solid;
+  border-style: solid;
+  position: absolute;
+}
+.tooltip-right::before {
+  border-color: transparent rgb(246, 8, 8) transparent transparent;
+  right: 100%;
+}
+.tooltip-left::before {
+  border-color: transparent transparent transparent rgb(246, 8, 8);
+  left: 100%;
+}
+.tooltip-top::before {
+  border-color: rgb(246, 8, 8) transparent transparent transparent;
+  top: 100%;
+  left: 45%;
+}
+.tooltip-bottom::before {
+  border-color: transparent transparent rgb(246, 8, 8) transparent;
+  bottom: 100%;
+  left: 45%;
+}
+
+/* Hoover das caixas de texto */
+section:hover .tooltip {
+  visibility: initial;
+  background-color: rgb(17, 80, 182);
+  color: rgb(243, 243, 243);
+  opacity: 1;
+}

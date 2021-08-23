@@ -1,0 +1,30 @@
+section {
+  width: 20rem;
+  margin: 80px auto 0;
+  line-height: 1.6rem;
+  color: white;
+}
+
+.section-content {
+  padding: 2rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(113, 203, 255),
+    rgb(192, 82, 255)
+  );
+  transition: all 0.45s ease-in-out;
+  clip-path: circle(50% at 0% -10%);
+}
+
+.section-content p {
+  opacity: 0;
+  transition: all 0.45s ease-in-out;
+}
+
+.section:hover .section-content {
+  clip-path: circle(150% at 0% 0%);
+}
+.section:hover .section-content p {
+  opacity: 1;
+}

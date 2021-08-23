@@ -1,0 +1,9 @@
+img {
+  width: 25rem;
+  height: 20rem;
+  background-color: wheat;
+  border: violet solid 2px;
+  object-fit: contain;
+  /* object-position: right; */
+  object-position: -2rem 3rem;
+}

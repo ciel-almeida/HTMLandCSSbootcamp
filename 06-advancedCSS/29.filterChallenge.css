@@ -1,0 +1,19 @@
+section {
+  width: 80%;
+  margin: 50px auto 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  /* filter: grayscale(50%); */
+  /* filter: hue-rotate(305deg); */
+  /* filter: opacity(10%); */
+  filter: blur(4px);
+}
+
+img:hover {
+  filter: blur(0);
+}

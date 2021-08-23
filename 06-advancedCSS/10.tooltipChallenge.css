@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 4rem;
+  background-color: rgb(159, 159, 250);
+}
+
+div {
+  position: relative;
+  display: inline-block;
+  margin-top: 5rem;
+  background-color: lightcoral;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.2em;
+}
+.tooltip {
+  display: inline-block;
+  visibility: hidden;
+  position: absolute;
+  padding: 0.3rem;
+  border-radius: 5px;
+  background-color: lemonchiffon;
+}
+
+.tooltip-1 {
+  left: 0%;
+  bottom: 101%;
+}
+.tooltip-2 {
+  left: 101%;
+  bottom: 50%;
+}
+.tooltip-3 {
+  right: 0%;
+  top: 101%;
+}
+.tooltip-4 {
+  right: 101%;
+  bottom: 50%;
+}
+.tooltip-box:hover .tooltip {
+  visibility: visible;
+}

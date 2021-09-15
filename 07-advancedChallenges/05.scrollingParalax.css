@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.background {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-image-1 {
+  background-image: url("./images/pexels-dương-nhân-2278646.jpg");
+}
+.bg-image-2 {
+  background-image: url("./images/pexels-luis-miguel-p-bonilla-3071393.jpg");
+}
+.bg-image-3 {
+  background-image: url("./images/pexels-shutterspeed-5867525.jpg");
+}
+.bg-image-4 {
+  background-image: url("./images/pexels-maris-rhamdani-1552173.jpg");
+}
+.bg-image-5 {
+  background-image: url("./images/pexels-matej-novosad-754062.jpg");
+}
+.content {
+  padding: 5rem 10rem;
+  height: auto;
+  background-image: linear-gradient(135deg, orange, red);
+}

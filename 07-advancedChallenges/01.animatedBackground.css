@@ -1,0 +1,114 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgb(112, 53, 221), rgb(79, 56, 156));
+  position: relative;
+  overflow: hidden;
+}
+
+.background__box {
+  width: 6rem;
+  height: 6rem;
+  background: linear-gradient(to left, rgb(79, 8, 138), rgb(39, 21, 68));
+  position: absolute;
+}
+
+.box1 {
+  left: 4%;
+  width: 3.6rem;
+  height: 3.6rem;
+  animation: box1 7s ease infinite;
+}
+
+.box2 {
+  left: 20%;
+  width: 1.6rem;
+  height: 1.6rem;
+
+  animation: box2 4s ease infinite;
+}
+
+.box3 {
+  left: 43%;
+  width: 7.6rem;
+  height: 7.6rem;
+  animation: box3 9s linear infinite;
+}
+
+.box4 {
+  left: 68%;
+  width: 1.6rem;
+  height: 1.6rem;
+  animation: box4 3s ease infinite;
+}
+
+.box5 {
+  left: 78%;
+  width: 9.6rem;
+  height: 9.6rem;
+  animation: box5 13s linear infinite;
+}
+
+@keyframes box1 {
+  0% {
+    top: 120%;
+    transform: rotate(180deg);
+  }
+  100% {
+    border-radius: 10px;
+    top: -30%;
+  }
+}
+
+@keyframes box2 {
+  0% {
+    top: 120%;
+    transform: rotate(960deg);
+  }
+  100% {
+    border-radius: 4px;
+    top: -30%;
+  }
+}
+
+@keyframes box3 {
+  0% {
+    top: 120%;
+    transform: rotate(260deg);
+  }
+  100% {
+    border-radius: 24px;
+
+    top: -30%;
+  }
+}
+
+@keyframes box4 {
+  0% {
+    top: 120%;
+    transform: rotate(360deg);
+  }
+  100% {
+    border-radius: 4px;
+    top: -30%;
+  }
+}
+
+@keyframes box5 {
+  0% {
+    top: 120%;
+    transform: rotate(180deg);
+  }
+  100% {
+    border-radius: 24px;
+    top: -30%;
+  }
+}

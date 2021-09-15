@@ -1,0 +1,108 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  background-color: rgb(255, 255, 255);
+}
+
+section {
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  border-radius: 2px;
+  padding: 1rem 3rem;
+  position: relative;
+  background: linear-gradient(to left, rgb(74, 196, 236), rgb(172, 238, 255));
+  box-shadow: 2px 2px 5px 4px rgb(202, 197, 197);
+  border: none;
+  outline: none;
+  overflow: hidden;
+}
+
+span:nth-child(1) {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(to left, rgb(83, 86, 248), rgb(121, 212, 255));
+  animation: moving-border 1s linear infinite;
+}
+
+span:nth-child(2) {
+  position: absolute;
+  width: 2px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(83, 86, 248), rgb(121, 212, 255));
+  animation: moving-border2 1s linear infinite;
+  animation-delay: 1.5s;
+}
+
+span:nth-child(3) {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, rgb(83, 86, 248), rgb(121, 212, 255));
+  animation: moving-border3 1s linear infinite;
+}
+
+span:nth-child(4) {
+  position: absolute;
+  width: 2px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to top, rgb(83, 86, 248), rgb(121, 212, 255));
+  animation: moving-border4 1s linear infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes moving-border {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes moving-border2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes moving-border3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes moving-border4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

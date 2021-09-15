@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html {
+  background-color: darkgrey;
+}
+ul {
+  background-color: blanchedalmond;
+  padding: 3rem;
+  width: 9rem;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  height: auto;
+  margin: 2rem;
+  box-shadow: -0.2rem -0.2rem 0.5rem rgba(255, 255, 255, 1),
+    0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+li label {
+  position: relative;
+}
+ul li label input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+ul li label div.icon-container {
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  margin: 0 auto 2rem;
+  border-radius: 0.7rem;
+  background-color: blanchedalmond;
+  box-shadow: -0.2rem -0.2rem 0.5rem rgba(255, 255, 255, 1),
+    0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: all 0.45s ease-in-out;
+}
+
+div.icon-container i {
+  font-size: 1rem;
+}
+
+ul li label input[type="checkbox"]:checked ~ div.icon-container {
+  box-shadow: inset 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.1),
+    inset -0.2rem -0.2rem 0.5rem rgba(255, 255, 255, 1);
+}
+ul li label input[type="checkbox"]:checked ~ div.icon-container i {
+  transform: scale(0.95);
+}

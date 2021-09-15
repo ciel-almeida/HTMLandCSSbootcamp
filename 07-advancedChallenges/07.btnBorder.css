@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  text-align: center;
+  padding: 5rem;
+}
+button {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: rgb(209, 206, 206);
+  font-size: 1.3rem;
+  font-family: fantasy;
+  font-weight: 300;
+  position: relative;
+  transition: all 1s ease;
+}
+
+button:hover {
+  color: rgb(255, 20, 20);
+}
+span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 2px;
+  background-color: red;
+  transition: all 1s ease;
+}
+span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: 2px;
+  background-color: red;
+  transition: all 1s ease;
+}
+
+button:hover span:nth-child(1),
+button:hover span:nth-child(3) {
+  width: 100%;
+}
+
+span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 30%;
+  background-color: red;
+  transition: all 1s ease;
+}
+span:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 2px;
+  height: 30%;
+  background-color: red;
+  transition: all 1s ease;
+}
+
+button:hover span:nth-child(2),
+button:hover span:nth-child(4) {
+  height: 100%;
+}
